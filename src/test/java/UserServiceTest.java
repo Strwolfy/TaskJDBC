@@ -14,6 +14,11 @@ public class UserServiceTest {
     private final byte testAge = 5;
 
 
+    public static void main(String[] args) {
+
+    }
+
+
     @Test
     public void dropUsersTable() {
         try {
