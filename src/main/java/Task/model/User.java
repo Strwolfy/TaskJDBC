@@ -1,4 +1,4 @@
-package jm.task.core.jdbc.model;
+package Task.model;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
@@ -85,11 +85,13 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "User {" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +
                 '}';
     }
+
+
 }

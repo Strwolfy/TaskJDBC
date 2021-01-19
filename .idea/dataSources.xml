@@ -16,11 +16,11 @@
       <jdbc-driver>org.h2.Driver</jdbc-driver>
       <jdbc-url>jdbc:h2:~/test</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="javastudy@localhost" uuid="1389894e-2e32-4f87-ae70-8569955a9455">
+    <data-source source="LOCAL" name="mydbtest@localhost" uuid="1389894e-2e32-4f87-ae70-8569955a9455">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/javastudy</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/mydbtest</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="UTC" />
       </driver-properties>

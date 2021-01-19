@@ -1,6 +1,6 @@
-import jm.task.core.jdbc.model.User;
-import jm.task.core.jdbc.service.UserService;
-import jm.task.core.jdbc.service.UserServiceImpl;
+import Task.model.User;
+import Task.service.UserService;
+import Task.service.UserServiceImpl;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -17,7 +17,6 @@ public class UserServiceTest {
     public static void main(String[] args) {
 
     }
-
 
     @Test
     public void dropUsersTable() {
