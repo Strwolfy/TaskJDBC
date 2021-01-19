@@ -22,14 +22,13 @@ public class Main {
         userService.saveUser("Andrey", "Shevtsov", (byte) 27);
 
         // вывод всех пользователей
-        userService.removeUserById(2);
         List<User> userList =  userService.getAllUsers();
 
-
-
         // очистка таблицы
-        //userService.cleanUsersTable();
+        userService.cleanUsersTable();
 
+        //удаление таблицы
+        userService.dropUsersTable();
 
     }
 }
