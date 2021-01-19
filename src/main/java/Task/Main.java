@@ -15,6 +15,9 @@ public class Main {
 
         UserService userService = new UserServiceImpl();
 
+        // создание таблицы
+        userService.createUsersTable();
+
         // добавление 4-х пользователей
         userService.saveUser("Alexey", "Trubov", (byte) 45);
         userService.saveUser("Oleg", "Sergeev", (byte) 32);
