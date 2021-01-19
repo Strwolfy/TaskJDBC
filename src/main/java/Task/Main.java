@@ -25,7 +25,7 @@ public class Main {
         userService.saveUser("Andrey", "Shevtsov", (byte) 27);
 
         // вывод всех пользователей
-        List<User> userList =  userService.getAllUsers();
+        userService.getAllUsers();
 
         // очистка таблицы
         userService.cleanUsersTable();
