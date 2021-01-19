@@ -16,8 +16,8 @@ public class Main {
         UserService userService = new UserServiceImpl();
 
         // добавление 4-х пользователей
-        userService.saveUser("Alexey", "Ivanov", (byte) 45);
-        userService.saveUser("Oleg", "Ivanov",      (byte) 32);
+        userService.saveUser("Alexey", "Trubov", (byte) 45);
+        userService.saveUser("Oleg", "Sergeev", (byte) 32);
         userService.saveUser("Evgeniy", "Prigozhin", (byte) 53);
         userService.saveUser("Andrey", "Shevtsov", (byte) 27);
 
